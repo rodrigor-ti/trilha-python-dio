@@ -1,3 +1,6 @@
+#Resolução primeiro desafio de projeto
+#Criando um Sistema Bancário com Python
+# 27/08/2024
 menu = """
 
 [d] Depositar
