@@ -1,3 +1,7 @@
+# Resolução desafio Otimizando o Sistema Bancário com Funções Python
+# Rodrigo Rodrigues
+# 28/08/2024
+
 import textwrap
 from abc import ABC, abstractclassmethod, abstractproperty
 from datetime import datetime
@@ -318,6 +322,7 @@ def exibir_extrato(clientes):
     if not conta:
         return
 
+# mantive os exemplos
     print("\n================ EXTRATO ================")
     extrato = ""
     tem_transacao = False
