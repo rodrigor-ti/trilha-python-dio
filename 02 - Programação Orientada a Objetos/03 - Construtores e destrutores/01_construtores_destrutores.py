@@ -1,3 +1,4 @@
+# Rodrigo Rodrigues
 class Cachorro:
     def __init__(self, nome, cor, acordado=True):
         print("Inicializando a classe...")
@@ -9,11 +10,11 @@ class Cachorro:
         print("Removendo a instância da classe.")
 
     def falar(self):
-        print("auau")
+        print("auau corre")
 
 
 def criar_cachorro():
-    c = Cachorro("Zeus", "Branco e preto", False)
+    c = Cachorro("Zeus", "Black", False)
     print(c.nome)
 
 
@@ -28,4 +29,4 @@ print("Ola mundo")
 print("Ola mundo")
 print("Ola mundo")
 
-# criar_cachorro()
+criar_cachorro()

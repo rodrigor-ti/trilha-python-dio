@@ -12,10 +12,10 @@ class Bicicleta:
 
     def parar(self):
         print("Parando bicicleta...")
-        print("Bicicleta parada! Treine mais")
+        print("Bicicleta parada! Treine mais! Pau de Rato!")
 
     def correr(self):
-        print("Vrummmmm...")
+        print("Vrummmmm bora bora sair da frente cadeado...")
 
     def __str__(self):
         return f"{self.__class__.__name__}: {', '.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
