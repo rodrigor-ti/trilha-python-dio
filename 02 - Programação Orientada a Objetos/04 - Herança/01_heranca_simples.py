@@ -32,6 +32,9 @@ moto = Motocicleta("preta", "abc-1234", 2)
 carro = Carro("branco", "xde-0098", 4)
 caminhao = Caminhao("roxo", "gfd-8712", 8, True)
 
+print("\n")
 print(moto)
 print(carro)
 print(caminhao)
+print("\n")
+
