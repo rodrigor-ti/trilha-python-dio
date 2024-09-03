@@ -1,3 +1,6 @@
+#Modelando o Sistema Bancário em POO com Python
+#Rodrigo Rodrigues
+#03/09/2024
 import textwrap
 from abc import ABC, abstractclassmethod, abstractproperty
 from datetime import datetime
